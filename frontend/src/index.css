@@ -1,0 +1,224 @@
+.navbar {
+  background-color: #343a40; 
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.navbar-brand:hover {
+  color: #ffc107;
+}
+
+.nav-item .btn {
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.after-navbar-bg {
+  background-color: rgb(195, 229, 243); 
+  padding: 100px 0; 
+  min-height: 100vh; 
+}
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 200px;
+
+}
+.welcome-home{
+  font-weight: bold;
+  font-size: 40px;
+}
+.every{
+  font-size: 20px;
+  color: rgb(62, 61, 61);
+}
+
+
+.card-welcome {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+  line-height: 1.5;
+}
+.signup-card {
+ width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.signup-container {
+ background-image: url('./images/DSA-back.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;        
+}
+
+.login-container {
+  background-image: url('./images/DSA-back.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  
+}
+
+.profile-wrapper {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+}
+
+.profile-card {
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border: none;
+  background-color: #fdfbfb;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome{
+  color: green;
+  font-weight: bold;
+  font-size: 40px;
+}
+.welcome1{
+  color: rgb(15, 108, 200);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.profile-title {
+  color: black; 
+   font-size: 45px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.card-body {
+  padding: 1.25rem 1.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.card-text strong {
+  font-weight: 600;
+  color: #555;
+}
+
+.d-flex.flex-column > a.btn {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.d-flex.flex-column > a.btn:last-child {
+  margin-bottom: 0;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #6385d9;
+}
+
+.accordion-heading-text{
+   font-size: 1.5rem;
+  font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.topics{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.explore{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+a.nav-link{
+  color: white;
+}
