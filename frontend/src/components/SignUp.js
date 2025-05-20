@@ -39,7 +39,7 @@ const SignUp = () => {
     if (Object.keys(validationErrors).length > 0) return;
 
     try {
-      await axios.post('http://localhost:5000/api/users/register', formData);
+      await axios.post('https://dsabackend.vercel.app/api/users/register', formData);
       toast.success('User registered successfully!');
       setTimeout(() => navigate('/login'), 2000); 
     } catch (err) {

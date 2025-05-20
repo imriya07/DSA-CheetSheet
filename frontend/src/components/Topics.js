@@ -8,7 +8,7 @@ const Topics = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/headings/with-progress", {
+      .get("https://dsabackend.vercel.app/api/headings/with-progress", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`, 
         },
@@ -44,7 +44,7 @@ const Topics = () => {
 
     axios
       .patch(
-        `http://localhost:5000/api/headings/user-progress/${subheadingId}`,
+        `https://dsabackend.vercel.app/api/headings/user-progress/${subheadingId}`,
         {
           status: checked ? "Completed" : "Pending",
         },
