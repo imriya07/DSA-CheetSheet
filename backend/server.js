@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-  origin: 'http://localhost:3000', 
+  origin: 'https://dsafrontend.vercel.app', 
   credentials: true,               
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',  
 }));
@@ -27,8 +27,8 @@ app.use('/api/users', userRoutes);
 app.use('/api/headings', headingRoutes);
 
 const PORT = process.env.PORT || 8000;
-app.listen(PORT,() =>{
-  console.log(`server running ${PORT}`);
-})
+if(process.env.NODE_ENV !== "production"){
+  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+}
 
 module.exports = app;
